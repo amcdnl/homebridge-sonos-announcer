@@ -1,0 +1,39 @@
+{
+  "name": "homebridge-sonos-announcer",
+  "version": "1.0.0",
+  "description": "Announce things via Homebridge and Sonos",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "rimraf ./dist && tsc"
+  },
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://amcdnl@github.com/amcdnl/homebridge-sonos-announcer.git"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.5"
+  },
+  "author": "Austin McDaniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcdnl/homebridge-sonos-announcer/issues"
+  },
+  "homepage": "https://github.com/amcdnl/homebridge-sonos-announcer#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "homebridge": "^1.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@svrooij/sonos": "^2.4.1"
+  }
+}
