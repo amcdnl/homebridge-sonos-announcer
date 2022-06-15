@@ -1,10 +1,10 @@
 {
   "name": "homebridge-sonos-announcer",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Announce things via Homebridge and Sonos",
   "scripts": {
     "clean": "rimraf ./dist",
-    "build": "rimraf ./dist && tsc"
+    "build": "tsc"
   },
   "files": [
     "LICENSE",
